@@ -17,5 +17,3 @@ function sendMessage(message) {
     lcd.println(currentTime.toTimeString().substring(0, 8), 1);
     lcd.println(message, 2);
 }
-
-sendMessage('It worked!');
